@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Raleway:wght@300&family=Satisfy&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+h1.bio {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+h2.bio {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+body {
+  background: #f1f1f1;
+}
+@media (min-width: 960px) {
+  .container{
+    width: 500px;
+    margin: 100px auto;
+  }
+}
+@media (min-width: 500px) and (max-width: 992px) {
+  .container {
+    width: 700px;
+    margin: 100px auto;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    width: 400px;
+    margin: 100px auto;
+  }
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+li::marker {
+  display: none;
+}
+a {
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    color: #6B72E1;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.2s all ease-in-out;
+}
+a:hover {
+  color: purple;
+  transition: 0.2s all ease-in-out;
+}
+li {
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0px;
+}
+.text-center {
+  text-align: center;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.card-white {
+  background: white;
+  border: 1px solid lightgrey;
+}
+img.img-radius {
+  border-radius: 50%;
+}
+.image-orientation {
+  width: 100px;
+  height: 112px;
+}
+button {
+  margin: 1rem 0;
+  color: #ffffff;
+  background: #636363;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0.5rem;
+  transition: all 0.2s ease-in-out;
+}
+button:hover {
+  color: #000000;
+  background: #d3d3d3;
+  transition: all 0.2s ease-in-out;
+}
